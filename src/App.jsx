@@ -4,7 +4,7 @@ import ChatRoom from "./chatroom";
 import "./App.css";
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:5050";
+const SOCKET_URL = "https://whatsapp-backend-production-4fd3.up.railway.app/";
 let socket;
 
 function App() {
